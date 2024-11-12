@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
                    
-                    InlineKeyboardButton(text="🛡", callback_data="group_info"),
+                    InlineKeyboardButton('🚀 𝐉𝐎𝐈𝐍 🚀', callback_data="group_info"),
                 ],[
                     InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
@@ -2098,17 +2098,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Team_Netflix/33")
+            InlineKeyboardButton('🎉 𝐁𝐀𝐂𝐊𝐔𝐏 🎉', url="https://t.me/+CXvubrKYM6Q4YTY1")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie7xchat"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/team_netflix")
-       ],[
-            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/+fAjYIpR5Ju02M2Q1"),
-            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/+KeFIjHXhzLMyMWZl")
-       ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_Cruise_Netflix")
+            InlineKeyboardButton('🔥 𝐌𝐎𝐕𝐈𝐄 𝐆𝐑𝐎𝐔𝐏 🔥', url="https://t.me/pcmoviesgroup"),
+            InlineKeyboardButton('💥 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 💥', url="https://t.me/pcott")
        ],[ 
-            InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
+            InlineKeyboardButton('𝐁𝐚𝐜𝐤', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3489,38 +3484,38 @@ async def auto_filter(client, msg, spoll=False):
     #     ]
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
 
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
 
     if offset != "":
@@ -3688,7 +3683,7 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("ɢᴏᴏɢʟᴇ ᴋᴀʀᴏ ʙʜᴀɪ", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("𝐆𝐨𝐨𝐠𝐥𝐞", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
