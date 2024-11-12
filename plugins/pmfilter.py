@@ -1436,7 +1436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/movie7xchat")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/pcmoviesgroup")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1461,7 +1461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("ᴠɪᴇᴡ ꜱᴛᴀᴛᴜꜱ", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/movie7xchat")
+                 InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ 🔎", url="https://t.me/pcmoviesgroup")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1551,7 +1551,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                         InlineKeyboardButton('ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ •', url=ph_link)]]))  
         except Exception as e:
             print(e)  # print the error message
-            await query.answer(f"⚠️kuch to galat hai bc \n\n{e}", show_alert=True)
+            await query.answer(f"⚠️something went wrong \n\n{e}", show_alert=True)
             return
 
     # don't change anything without contacting me @cryxelys
@@ -1570,19 +1570,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton(text="🏡", callback_data="start"),
+                   
                     InlineKeyboardButton(text="🛡", callback_data="group_info"),
-                    InlineKeyboardButton(text="💳", callback_data="about"),
-                    InlineKeyboardButton(text="💸", callback_data="shortlink_info"),
-                    InlineKeyboardButton(text="🖥", callback_data="main"),
                 ],[
-                    InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='main'),
-                    InlineKeyboardButton('• ᴇᴀʀɴ ᴍᴏɴᴇʏ •', callback_data='shortlink_info')
+                    InlineKeyboardButton('💥 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 💥', url = 'https://t.me/pcott'),
+                    InlineKeyboardButton('🔥 𝐌𝐎𝐕𝐈𝐄 𝐆𝐑𝐎𝐔𝐏 🔥', url = 'https://t.me/pcmoviesgroup')
                 ],[
-                    InlineKeyboardButton('• ᴘʀᴇᴍɪᴜᴍ •', callback_data='premium_info'),
-                    InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
+                    InlineKeyboardButton('⚡ 𝐀𝐃𝐌𝐈𝐍 ⚡', url = 'https://t.me/PCADMINOFFICIALBOT')
+                   # InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
