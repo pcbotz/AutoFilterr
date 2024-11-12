@@ -103,7 +103,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/pcott') # How to open tut
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -112,7 +112,7 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "PCAutoFilterbot")
 BOT_NAME = environ.get("BOT_NAME", "𝐉𝐨𝐤𝐞𝐫")
 BOT_ID = environ.get("BOT_ID", "6040310745")
 S_GROUP = environ.get('S_GROUP', "PC MOVIES")
-S_CHANNEL = environ.get('S_CHANNEL', "codeflix_bots")
+S_CHANNEL = environ.get('S_CHANNEL', "pcott")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/pcmoviesgroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/pcott')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/pcott') # Tutorial video link for opening shortlink website 
