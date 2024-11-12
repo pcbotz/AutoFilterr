@@ -189,39 +189,40 @@ async def next_page(bot, query):
 
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/pcott"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
 
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
+
 
     try:
         if settings['max_btn']:
@@ -428,39 +429,40 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
 
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
+
 
     if offset != "":
         try:
@@ -538,13 +540,13 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
         0,
         [
             InlineKeyboardButton(
-                text="⇊ ꜱᴇʟᴇᴄᴛ ʟᴀɴɢᴜᴀɢᴇ ⇊", callback_data="ident"
+                text="⇊ 𝖲𝖤𝖫𝖤𝖢𝖳 𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤 ⇊", callback_data="ident"
             )
         ],
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"fl#homepage#{key}")])
+    btn.append([InlineKeyboardButton(text="↭ 𝖡𝖠𝖢𝖪 𝖳𝖮 𝖥𝖨𝖫𝖤𝖲 ​↭", callback_data=f"fl#homepage#{key}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
     
@@ -577,7 +579,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
 
     files, offset, total_results = await get_search_results(chat_id, search, offset=0, filter=True)
     if not files:
-        await query.answer("ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ", show_alert=1)
+        await query.answer("𝑵𝑶 𝑭𝑰𝑳𝑬𝑺 𝑾𝑬𝑹𝑬 𝑭𝑶𝑼𝑵𝑫", show_alert=1)
         return
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
@@ -593,38 +595,38 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
 
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
 
     if offset != "":
@@ -645,7 +647,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="↭ ɴᴏ ᴍᴏʀᴇ ᴘᴀɢᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ↭",callback_data="pages")]
+            [InlineKeyboardButton(text="↭ 𝖭𝖮 𝖬𝖮𝖱𝖤 𝖯𝖠𝖦𝖤𝖲 𝖠𝖵𝖠𝖨𝖫𝖠𝖡𝖫𝖤 ↭",callback_data="pages")]
         )
     
     if not settings["button"]:
@@ -704,13 +706,13 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
         0,
         [
             InlineKeyboardButton(
-                text="⇊ ꜱᴇʟᴇᴄᴛ ꜱᴇᴀꜱᴏɴ ⇊", callback_data="ident"
+                text="⇊ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐒𝐄𝐀𝐒𝐎𝐍 ⇊", callback_data="ident"
             )
         ],
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"next_{req}_{key}_{offset}")])
+    btn.append([InlineKeyboardButton(text="↭ 𝖡𝖠𝖢𝖪 𝖳𝖮 𝖥𝖨𝖫𝖤𝖲 ​↭", callback_data=f"next_{req}_{key}_{offset}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
 
@@ -772,7 +774,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         files.extend(files2)
         
     if not files:
-        await query.answer("ɴᴏ ꜰɪʟᴇꜱ ᴡᴇʀᴇ ꜰᴏᴜɴᴅ", show_alert=1)
+        await query.answer("𝑵𝑶 𝑭𝑰𝑳𝑬𝑺 𝑾𝑬𝑹𝑬 𝑭𝑶𝑼𝑵𝑫", show_alert=1)
         return
     temp.GETALL[key] = files
     settings = await get_settings(message.chat.id)
@@ -787,33 +789,33 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             for file in files
         ]
         btn.insert(0, [
-            InlineKeyboardButton("ꜱᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}"),
-            InlineKeyboardButton("ꜱᴇʟᴇᴄᴛ ᴀɢᴀɪɴ", callback_data=f"seasons#{key}")
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("𝖲𝖤𝖫𝖤𝖢𝖳 𝖠𝖦𝖠𝖨𝖭", callback_data=f"seasons#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ ꜱᴇʟᴇᴄᴛ ᴏᴘᴛɪᴏɴꜱ ʜᴇʀᴇ ⇈", 'reqinfo')
+                InlineKeyboardButton("⇈ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐎𝐏𝐓𝐈𝐎𝐍𝐒 𝐇𝐄𝐑𝐄 ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ꜱᴇᴀsᴏɴ",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'𝖰𝖴𝖠𝖫𝖨𝖳𝖸', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("𝖫𝖠𝖭𝖦𝖴𝖠𝖦𝖤", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("𝖲𝖤𝖠𝖲𝖮𝖭",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
-            InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("𝖴𝖯𝖣𝖠𝖳𝖤𝖲", url=f"https://t.me/pcott"),
+            InlineKeyboardButton("𝖲𝖤𝖭𝖣 𝖠𝖫𝖫", callback_data=f"sendfiles#{key}")
         ])
     
     offset = 0
 
     btn.append([
             InlineKeyboardButton(
-                text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭",
+                text="↭ 𝖡𝖠𝖢𝖪 𝖳𝖮 𝖥𝖨𝖫𝖤𝖲 ​↭",
                 callback_data=f"next_{req}_{key}_{offset}"
                 ),
     ])
